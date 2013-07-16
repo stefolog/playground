@@ -1,7 +1,7 @@
 @ECHO OFF
 
 REM === Common variables ===
-SET CAMPS_ROOT=D:/projects/playground/camp
+SET CAMPS_ROOT=D:/projects/playground/CampaingValidators/camp
 
 IF "%1"=="" GOTO ASK_FOR_CAMPAIGN
 GOTO SET_CAMPAIGN
